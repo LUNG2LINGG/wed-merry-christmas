@@ -907,3 +907,123 @@ marquee{
     font-family: 'Roboto', sans-serif;
     background: rgba(0, 0, 0, 0.3);
 }
+/* ============================================= */
+/*          RESPONSIVE - MOBILE                  */
+/* ============================================= */
+
+@media (max-width: 768px) {
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+
+    .moon {
+        width: 70px !important;
+        right: 5% !important;
+        top: 15px !important;
+    }
+    .moon img {
+        width: 70px;
+    }
+
+    .christmas-tree img {
+        width: 280px !important;
+    }
+
+    .house {
+        width: 280px !important;
+        right: 0 !important;
+    }
+    .house img {
+        width: 280px;
+    }
+
+    .text-noel {
+        width: 240px !important;
+    }
+    .text-noel img {
+        width: 240px !important;
+    }
+
+    .santa1 {
+        width: 340px !important;
+        transform: translate(-50%, 280px) !important;
+    }
+
+    .box-gift {
+        width: 85px !important;
+        height: 85px !important;
+        top: 52% !important;
+    }
+
+    .gift-bottom, .gift-top {
+        width: 75px !important;
+    }
+
+    /* Popup Content */
+    .box-content .content1 {
+        width: 95% !important;
+        max-width: 420px;
+        height: auto !important;
+        max-height: 88vh;
+        padding: 20px 15px;
+        border-radius: 20px;
+    }
+
+    .content-text {
+        width: 100% !important;
+    }
+
+    .text2 h2 {
+        font-size: 19px !important;
+        line-height: 1.4;
+    }
+
+    .image-santa-content {
+        left: 0 !important;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .image-santa-content img {
+        width: 150px !important;
+    }
+
+    /* Ẩn một số hiệu ứng nặng trên mobile */
+    .box-reindeer {
+        display: none;
+    }
+
+    marquee {
+        font-size: 15px !important;
+        padding: 10px 5px !important;
+    }
+
+    .box-snow span {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-noel {
+        width: 200px !important;
+    }
+    .text-noel img {
+        width: 200px !important;
+    }
+
+    .santa1 {
+        width: 300px !important;
+    }
+
+    .box-gift {
+        top: 55% !important;
+    }
+}
+
+/* Tối ưu cho iPhone và một số màn hình nhỏ */
+@media (max-height: 667px) {
+    .box-gift {
+        top: 50% !important;
+    }
+}
